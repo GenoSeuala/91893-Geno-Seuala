@@ -9,7 +9,17 @@
 {% block content %}
 <body>
     <nav>
-
+       <button class="buttonunset" id="burgermenu"><img src="{{ url_for('static', filename='images/hamburgermenu.png') }}" alt="hamburger menu icon"></button> 
+       <button class="buttonunset" id="ezcheflogo"><img src="{{ url_for('static', filename='images/ezcheflogo.png') }}" alt="ezchef logo"></button> 
+       <div id="navbuttons">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Cook</a></li>
+            <li><a href="">Learn</a></li>
+            <li id="login"><a href="">Log In</a></li>
+        </ul>
+        
+       </div>
     </nav>
 </body>
 </html>

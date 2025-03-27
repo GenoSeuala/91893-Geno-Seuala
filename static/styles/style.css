@@ -1,3 +1,60 @@
+@font-face {
+    font-family: GarnetBlack;
+    src: url(fonts/GarnetCapitals-Black.ttf);
+}
+
 body{
-    width: 1280px;
+    width: 1920px;
+    margin: 0 auto;
+}
+.buttonunset{
+    all: unset;
+}
+.buttonunset:hover{
+    cursor: pointer;
+}
+nav{
+    background-color: #2E2B2D;
+    height: 110px;
+}
+#burgermenu{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#ezcheflogo{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    text-align: center;
+    margin-left: 700px;
+}
+li{
+    all: unset;
+    margin-left: 10px;
+    height: 106px;
+    margin-top: -85px;
+    width: 150px;
+
+    position: relative;
+}
+li:hover{
+    cursor: pointer;
+    background-color: #282527;
+
+}
+a{
+    all: unset;
+    color: #B8AB82;
+    font-family: GarnetBlack;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -40px;
+    font-size: 17pt;
+}
+#login{
+    margin-left: 540px;
+    background-color: unset;
 }
