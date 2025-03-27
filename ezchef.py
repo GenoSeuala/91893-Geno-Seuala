@@ -21,3 +21,7 @@ def get_db_connection():
 @app.route('/')
 def index():
     return render_template('base.html')
+
+# Run the Flask app in debug mode
+if __name__ == '__main__':
+    app.run(debug=True)
