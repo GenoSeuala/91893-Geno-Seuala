@@ -4,7 +4,7 @@
 }
 
 body{
-    width: 1920px;
+    width: 1500px;
     margin: 0 auto;
 }
 .buttonunset{
@@ -15,47 +15,45 @@ body{
 }
 nav{
     background-color: #2E2B2D;
-    height: 110px;
+    height: 86px;
 }
 #burgermenu{
-    margin-left: 30px;
-    margin-top: 40px;
+    margin-left: 23px;
+    margin-top: 28px;
 }
 #ezcheflogo{
     position: absolute;
-    margin-left: 40px;
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 17px;
 }
 ul{
     display: flex;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 526px;
 }
 li{
     all: unset;
-    margin-left: 10px;
-    height: 106px;
-    margin-top: -85px;
-    width: 150px;
-    
+    margin-left: 15px;
+    height: 83px;
+    margin-top: -73px;
+    width: 117px;
     position: relative;
 }
 li:hover{
     cursor: pointer;
     background-color: #282527;
-
 }
 a{
     all: unset;
     color: #B8AB82;
     font-family: GarnetBlack;
     position: absolute;
-    margin-top: 40px;
-    margin-left: -40px;
-    font-size: 17pt;
+    margin-top: 31px;
+    margin-left: -31px;
+    font-size: 13pt;
 }
 #login{
-    margin-left: 540px;
+    margin-left: 420px;
 }
 .active{
     background-color: #282527;
