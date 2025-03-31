@@ -2,7 +2,15 @@
     font-family: GarnetBlack;
     src: url(fonts/GarnetCapitals-Black.ttf);
 }
-
+@font-face {
+    font-family: Goldbarre;
+    src: url(fonts\GoldbarreNo2W00-Regular.ttf);
+}
+h1{
+    font-family: Goldbarre;
+    color: #B8AB82;
+    font-size: 24pt;
+}
 body{
     width: 1500px;
     margin: 0 auto;
@@ -16,6 +24,7 @@ body{
 nav{
     background-color: #2E2B2D;
     height: 86px;
+    margin-top: -8px;
 }
 #burgermenu{
     margin-left: 23px;
@@ -52,9 +61,16 @@ a{
     margin-left: -31px;
     font-size: 13pt;
 }
-#login{
-    margin-left: 420px;
-}
 .active{
     background-color: #282527;
+}
+header{
+    height: 110px;
+    background-color: #2E2B2D;
+    margin-top: -21px;
+}
+hr{
+    border-top: 1px;
+    border-color: #B8AB82;
+    margin: 0;
 }

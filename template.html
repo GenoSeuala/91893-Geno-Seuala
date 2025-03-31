@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <link rel="stylesheet" href="style.css">
 </head>
-{% block content %}
 <body>
     <nav>
         <div id="navcontainer">
-            <button class="buttonunset" id="burgermenu"><img src="{{ url_for('static', filename='images/hamburgermenu.png') }}" alt="hamburger menu icon"></button> 
-            <button class="buttonunset" id="ezcheflogo"><img src="{{ url_for('static', filename='images/ezcheflogo.png') }}" alt="ezchef logo"></button> 
+            <button class="buttonunset" id="burgermenu"><img src="images/hamburgermenu.png" alt="hamburger menu icon"></button> 
+            <button class="buttonunset" id="ezcheflogo"><img src="images/ezcheflogo.png" alt="ezchef logo"></button> 
             <div id="navbuttons">
                 <ul>
                     <li class="active"><a href="">Home</a></li>
                     <li><a href="">Cook</a></li>
                     <li><a href="">Learn</a></li>
-                    <li id="login"><a href="">Log In</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <hr>
+    <header>
+        <h1>Bringing 5 star meals to your Kitchen ★★★★★</h1>
+    </header>
 </body>
 </html>
-{% endblock %}
