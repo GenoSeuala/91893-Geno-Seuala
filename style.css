@@ -96,6 +96,7 @@ footer{
     background-color: #262526;
     height: 300px;
     display: flex;
+    width: 1500px;
 }
 h2{
     font-family: Goldbarre;
