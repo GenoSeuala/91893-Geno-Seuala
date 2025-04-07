@@ -117,9 +117,12 @@ h2{
 #rightfooter{
     width: 500px;
 }
-ul{
+#leftfooter ul{
     color: #9b9070;
     font-family: Gothic;
+    margin-top: 85px;
+    margin-left: 50px;
+    text-align: center;
 }
 a{
     all: unset;
@@ -127,8 +130,57 @@ a{
     font-size: 18px;
     text-decoration: underline;
 }
-.youtubelogo{
-    margin-top: 1px;
+a:hover{
+    cursor: pointer;
+}
+.youtubelogo, .webicon, .phoneicon, .mailicon, .locationicon{
+    margin-top: 5px;
     position: absolute;
+ 
+}
+
+.youtubelogo:hover, .webicon:hover{
+    scale: 1.12;
+}
+
+.youtubelogo{
     margin-left: 10px;
 }
+li{
+    margin-bottom: 30px;
+}
+#footerlinks{
+    display: flex;
+    margin-left: 100px;
+}
+
+#rightfooter ul{
+    list-style-type: none;
+    color: #9b9070;
+    font-family: Gothic;
+    margin-top: 90px;
+    margin-left: -60px;
+    text-align: center;
+
+}
+#rightfooter img{
+    margin-left: 80px;
+    margin-top: -38px;
+}
+#rightfooter li{
+
+}
+
+.phoneicon{
+translate: -10px;
+}
+
+.mailicon{
+translate: 8px;
+}
+
+.webicon{
+    margin-left: 8px;
+    margin-top: 3px;
+}
+
