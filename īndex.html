@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>EzChef - Home</title>
-        <link rel="stylesheet" href="style.css">\
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </head>
@@ -104,5 +104,24 @@
                 </ul>
             </div>
         </footer>
+        <script>
+const swiper = new Swiper('.swiper', {
+              loop: true,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              scrollbar: {
+                el: '.swiper-scrollbar',
+                draggable: true,
+              },
+              slidesPerView: 1,
+              spaceBetween: 20,
+            });
+        </script>
     </body>
 </html>

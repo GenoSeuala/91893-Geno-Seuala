@@ -257,12 +257,13 @@ h4{
 }
 
 .swiper {
-    width: 600px;
-    height: 300px;
+    width: 680px;
   }
 
   .swiper-slide{
     width: 500px;
-    height: 1000px;
     background-color: ;
+  }
+  .swiper-slide img {
+    object-fit: cover;
   }
