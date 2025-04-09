@@ -1,114 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EzChef - Home</title>
-    <link rel="stylesheet" href="style.css">\
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-</head>
-<body>
-    <nav>
-        <div id="navcontainer">
-            <button class="buttonunset" id="burgermenu"><img src="images/hamburgermenu.png" alt="hamburger menu icon"></button> 
-            <button class="buttonunset" id="ezcheflogo"><img src="images/ezcheflogo.png" alt="ezchef logo"></button> 
-            <div id="navbuttons">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EzChef - Home</title>
+        <link rel="stylesheet" href="style.css">\
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div id="navcontainer">
+                <button class="buttonunset" id="burgermenu"><img src="images/hamburgermenu.png" alt="hamburger menu icon"></button> 
+                <button class="buttonunset" id="ezcheflogo"><img src="images/ezcheflogo.png" alt="ezchef logo"></button> 
+                <div id="navbuttons">
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Cook</a></li>
+                        <li><a href="">Learn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <header>
+            <h1>Bringing 5 star meals to your Kitchen <br>★★★★★</h1>
+        </header>
+        <article>
+            <section id="categorycarousel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+            </section>
+            <hr>
+            <section id="ROTD">
+                <div id="leftROTD">
+                    <h3>Recipe Of The Day...</h3>
+                    <img id="protiendonuts" src="images/protiendonuts.png" alt="Protien Donuts">
+                </div>
+                <div id="rightROTD">
+                    <h4>PROTIEN MINI-DONUTS</h4>
+                <ul id="traits">
+                    <li>vegetarian</li>
+                    <li>meal prep</li>
+                    <li>healthy</li>
+                    <li>party food</li>
+                </ul>
+                <p>Fuel your body with Protein Mini-Donuts, the guilt-free indulgence you've been craving! These protein-packed, bite-sized treats are crafted with premium whey, offering a delicious and nutritious snack. Enjoy a soft, fluffy texture in flavors like cinnamon and chocolate. Perfect for post-workout or a healthy dessert, they balance taste and nutrition. Reduced sugar and added fiber keep you energized and satisfied. Grab a box and enjoy the perfect snack on-the-go!</p>
+            </div>
+            </section>
+        </article>
+        <hr>
+        <footer>
+            <div id="leftfooter">
+                <h2>Need some help?</h2>
+                <div id="footerlinks">
                 <ul>
-                    <li class="active"><a href="">Home</a></li>
-                    <li><a href="">Cook</a></li>
-                    <li><a href="">Learn</a></li>
+                    <li><a href="https://www.youtube.com/@yousuckatcooking">You Suck At Cooking<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"> </a> </li>
+                    <li><a href="https://www.youtube.com/c/JoshuaWeissman">Joshua Weissman<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"> </a> </li>
+                    <li><a href="https://www.youtube.com/channel/UCwsa-MpLNx4pnsM1PiQwhyQ">HoneySuckle<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"> </a> </li>
+                    <li><a href="https://www.youtube.com/@babishculinaryuniverse"> Babish Culinaryc</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.youtube.com/@EthanChlebowski">Ethan Chlebowski<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
+                    <li><a href="https://www.youtube.com/@LifebyMikeG">LifebyMikeG<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
+                    <li><a href="https://www.youtube.com/@buzzfeedtasty">Tasty<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
+                    <li><a href="https://www.youtube.com/@JamieOliver"> Jamie Oliver<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.epicurious.com/">Epicurious<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
+                    <li><a href="https://www.allrecipes.com/">Allrecipes<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
+                    <li><a href="https://www.simplyrecipes.com/">Simply Recipes<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
+                    <li><a href="https://www.foodnetwork.com/"> Food Network<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="vl"></div>
+            <div id="rightfooter">
+                <h2 class="right">Contact us</h2>
+
+                <ul>
+                    <li><p>+64 22 562 2063</p><img class="phoneicon" src="images/phone.png" alt="phone icon"></li>
+                    <li><p>ezchefcoorp@gmail.com</p><img class="mailicon" src="images/mail.png" alt="mail icon"></li>
+                    <li><p>57b Part St, Auckland</p><img class="locationicon" src="images/locationpin.png" alt="location icon"></li>
+                    <li><p>@ezchefapp on all socials</p></li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <hr>
-    <header>
-        <h1>Bringing 5 star meals to your Kitchen <br>★★★★★</h1>
-    </header>
-    <div id="container">
-        <script>const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'vertical',
-            loop: true,
-          
-            // If we need pagination
-            pagination: {
-              el: '.swiper-pagination',
-            },
-          
-            // Navigation arrows
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          
-            // And if we need scrollbar
-            scrollbar: {
-              el: '.swiper-scrollbar',
-            },
-          });</script>
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-        
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
-    </div>
-    <hr>
-    <footer>
-        <div id="leftfooter">
-            <h2>Need some help?</h2>
-            <div id="footerlinks">
-            <ul>
-                <li><a href="https://www.youtube.com/@yousuckatcooking">You Suck At Cooking<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"> </a> </li>
-                <li><a href="https://www.youtube.com/c/JoshuaWeissman">Joshua Weissman<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"> </a> </li>
-                <li><a href="https://www.youtube.com/channel/UCwsa-MpLNx4pnsM1PiQwhyQ">HoneySuckle<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"> </a> </li>
-                <li><a href="https://www.youtube.com/@babishculinaryuniverse"> Babish Culinaryc</a></li>
-            </ul>
-            <ul>
-                <li><a href="https://www.youtube.com/@EthanChlebowski">Ethan Chlebowski<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
-                <li><a href="https://www.youtube.com/@LifebyMikeG">LifebyMikeG<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
-                <li><a href="https://www.youtube.com/@buzzfeedtasty">Tasty<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
-                <li><a href="https://www.youtube.com/@JamieOliver"> Jamie Oliver<img class="youtubelogo" src="images/image 78.png" alt="youtube logo"></a></li>
-            </ul>
-            <ul>
-                <li><a href="https://www.epicurious.com/">Epicurious<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
-                <li><a href="https://www.allrecipes.com/">Allrecipes<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
-                <li><a href="https://www.simplyrecipes.com/">Simply Recipes<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
-                <li><a href="https://www.foodnetwork.com/"> Food Network<img class="webicon" src="images\webicon.png" alt="youtube logo"></a></li>
-            </ul>
-            </div>
-        </div>
-        <div class="vl"></div>
-        <div id="rightfooter">
-            <h2 class="right">Contact us</h2>
-
-            <ul>
-                <li><p>+64 22 562 2063</p><img class="phoneicon" src="images/phone.png" alt="phone icon"></li>
-                <li><p>ezchefcoorp@gmail.com</p><img class="mailicon" src="images/mail.png" alt="mail icon"></li>
-                <li><p>57b Part St, Auckland</p><img class="locationicon" src="images/locationpin.png" alt="location icon"></li>
-                <li><p>@ezchefapp on all socials</p></li>
-            </ul>
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>

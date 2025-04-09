@@ -9,6 +9,10 @@
     font-family: Gothic;
     src: url(fonts/NewsGothicStd.otf);
 }
+@font-face {
+    font-family: Londoner;
+    src: url(fonts/Londoner.ttf);
+}
 h1{
     font-family: Goldbarre;
     color: #9b9070;
@@ -189,3 +193,68 @@ translate: 8px;
     width: 600px;
     height: 300px;
   }
+
+#ROTD{
+    height: 500px;
+    background-color: #2E2B2D;
+}
+#categorycarousel{
+    height: 600px;
+    background-color: #262526;
+}
+
+h3{
+    font-family: Goldbarre;
+    color: #9b9070;
+    font-size: 20pt;
+    font-weight: 600;
+    letter-spacing: 7px;
+    text-align: center;
+    position: absolute;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: -170px;
+} 
+#protiendonuts{
+    scale: 0.8;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+#ROTD{
+    display: flex;
+}
+h4{
+    font-family: GarnetBlack;
+    font-size: 40pt;
+    color: #9b9070;
+}
+#traits{
+    display: flex;
+    font-family: Londoner;
+    color: #9b9070;
+    font-size: 20pt;
+    margin-top: -60px;
+    margin-left: 84px;
+}
+#rightROTD{
+    margin-left: 80px;
+    margin-top: 20px;
+    text-align: center;
+}
+#rightROTD li{
+    margin-left: 30px;
+}
+#leftROTD{
+    margin-left: 50px;
+}
+#ROTD p{
+    font-family: Gothic;
+    color: #9b9070;
+    width: 600px;
+    font-size: 12pt;
+    letter-spacing: 2px;
+    margin-top: -40px;
+    line-height: 31px;
+    margin-left: 30px;
+}
