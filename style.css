@@ -279,3 +279,41 @@ h4{
     scale: 0.7;
     margin-left: 14 0px;
   }
+
+  .swiper-button-prev{
+    color: #9b9070;
+  }
+
+  h5{
+    position: absolute;
+    width: 150px;
+    margin-top: -30px;
+    color: #9b9070;
+    letter-spacing: px;
+    font-family: GarnetBlack;
+    text-align: center;
+
+  }
+  #category{
+    border-radius: 7px;
+    scale: 1.2;
+    border-style: solid;
+    border-color: #535353;
+    border-width: 1px;
+    position: relative;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    letter-spacing: 1px;
+    height: 45px;
+    font-size: 19pt;
+    margin-top: -30px;
+    margin-left: 120px;
+    background-color: #1F1F1F;
+  }
+  .explore{
+    font-family: Londoner;
+    color: #9b9070;
+    font-size: 14pt; 
+    margin-top: 5px;
+  }
