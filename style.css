@@ -58,7 +58,7 @@ nav li{
     all: unset;
     margin-left: 15px;
     height: 83px;
-    margin-top: -73px;
+    margin-top: -74px;
     width: 117px;
     position: relative;
 }
@@ -196,7 +196,7 @@ translate: 8px;
     background-color: #2E2B2D;
 }
 #categorycarousel{
-    height: 600px;
+    height: 650px;
     background-color: #262526;
 }
 
@@ -257,12 +257,12 @@ h4{
 }
 
 .swiper {
-    width: 680px;
+    width: 1300px;
   }
 
   .swiper-slide{
     width: 500px;
-    background-color: ;
+    margin-top: 40px;
   }
   .swiper-slide img {
     object-fit: cover;
@@ -280,9 +280,17 @@ h4{
     margin-left: 14 0px;
   }
 
-  .swiper-button-prev{
+.swiper-button-prev{
     color: #9b9070;
-  }
+    margin-left: 550px;
+ }
+ .swiper-button-next{
+    margin-right: 550px;
+ }
+
+ .swiper-button-next, .swiper-button-prev{
+    translate: 0 -140px;
+ }
 
   h5{
     position: absolute;
@@ -317,3 +325,11 @@ h4{
     font-size: 14pt; 
     margin-top: 5px;
   }
+
+  .swiper-button-prev::after, .swiper-button-next::after{
+    color: #9b9070;
+  }
+    .swiper-wrapper{
+        text-align: center;
+        margin-left: 0px;
+    }
