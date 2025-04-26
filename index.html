@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>EzChef - Home</title>
-        <link rel="stylesheet" href="style.css">
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="style.css">
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </head>
     <body>
@@ -15,9 +16,9 @@
                 <button class="buttonunset" id="ezcheflogo"><img src="images/ezcheflogo.png" alt="ezchef logo"></button> 
                 <div id="navbuttons">
                     <ul>
-                        <a href="index.html"><li><a href="index.html" >Home</a></li></a>
+                        <li class="active"><a href="index.html" >Home</a></li>
                         <li><a href="">Cook</a></li>
-                        <li class="active"><a href="learn.html">Learn</a></li>
+                        <li><a href="learn.html">Learn</a></li>
                     </ul>
                 </div>
             </div>
@@ -143,7 +144,7 @@ const swiper = new Swiper('.swiper', {
                 draggable: true,
               },
               slidesPerView: 3,
-              spaceBetween: 100,
+              spaceBetween: 20,
             });
         </script>
     </body>

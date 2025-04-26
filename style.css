@@ -22,7 +22,7 @@ h1{
     text-align: center;
     position: absolute;
     width: 1500px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 body{
     width: 1500px;
@@ -257,7 +257,8 @@ h4{
 }
 
 .swiper {
-    width: 1300px;
+    width: 1350px;
+    margin-top: -70px;
   }
 
   .swiper-slide{
@@ -282,48 +283,54 @@ h4{
 
 .swiper-button-prev{
     color: #9b9070;
-    margin-left: 550px;
+    translate: 30px 290px;
  }
  .swiper-button-next{
-    margin-right: 550px;
+
+    translate: 1445px 280px;
  }
 
- .swiper-button-next, .swiper-button-prev{
-    translate: 0 -140px;
+ .swiper-button-next, .swiper-button-prev {
+    position: unset;
  }
-
+.swiper-slide swiper-slide-active{
+    margin-left: -120px;
+}
   h5{
     position: absolute;
-    width: 150px;
-    margin-top: -30px;
+    width: 180px;
+    margin-top: -32px;
     color: #9b9070;
-    letter-spacing: px;
+    letter-spacing: 1px;
+    margin-left: -2px;
     font-family: GarnetBlack;
     text-align: center;
 
   }
   #category{
     border-radius: 7px;
-    scale: 1.2;
     border-style: solid;
     border-color: #535353;
+    position: absolute;
+    position: relative;
     border-width: 1px;
-    position: relative;
-    position: relative;
     text-align: center;
-    width: 150px;
+    width: 180px;
     letter-spacing: 1px;
-    height: 45px;
-    font-size: 19pt;
+    height: 58px;
+    font-size: 22pt;
     margin-top: -30px;
-    margin-left: 120px;
+    margin-left: 130px;
     background-color: #1F1F1F;
   }
   .explore{
     font-family: Londoner;
     color: #9b9070;
-    font-size: 14pt; 
-    margin-top: 5px;
+    font-size: 17pt; 
+    margin-top: 6px;
+    width: 180px;
+    margin-left: 2px;
+    text-align: center;
   }
 
   .swiper-button-prev::after, .swiper-button-next::after{
@@ -332,4 +339,5 @@ h4{
     .swiper-wrapper{
         text-align: center;
         margin-left: 0px;
+        width: 1400px;
     }
