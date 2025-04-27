@@ -342,7 +342,7 @@ header img{
     margin-left: 2px;
     text-align: center;
 }
-. .swiper-button-prev::after, .swiper-button-next::after{
+.swiper-button-prev::after, .swiper-button-next::after{
     color: #9b9070;
 }
 .swiper-wrapper{
@@ -396,10 +396,8 @@ h6{
     margin-top: 140px;
     margin-left: 75px;
 }
-.learnli:hover{
-    #title{
-        scale: 1.05;
-   }
+.learnli:hover #title {
+    scale: 1.05;
 }
 .learnli img{
     border-radius: 10px;
@@ -473,11 +471,13 @@ h5{
     font-size: 18.5pt;
 }
 /* final misc styling */
-.swiper-slide:hover{
+.swiper-slide:hover {
     cursor: pointer;
-    #recipetitle, #category{
-        scale: 1.05;
-   }
+  }
+  
+.swiper-slide:hover #recipetitle,
+.swiper-slide:hover #category {
+scale: 1.05;
 }
 #learnbutton{
     all: unset;
