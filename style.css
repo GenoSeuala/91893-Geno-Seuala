@@ -46,7 +46,7 @@ nav{
 #ezcheflogo{
     position: absolute;
     margin-left: 30px;
-    margin-top: 17px;
+    margin-top: 19px;
     opacity: 79%;
 }
 nav ul{
@@ -281,7 +281,6 @@ h4{
     margin-left: 140px;
     margin-top: -5px;
   }
-
 .swiper-button-prev{
     color: #9b9070;
     translate: 30px 290px;
@@ -297,13 +296,12 @@ h4{
 .swiper-slide swiper-slide-active{
     margin-left: -120px;
 }
-  h5{
+  .learnlabel{
     position: absolute;
     width: 180px;
     margin-top: -31px;
     color: #9b9070;
     letter-spacing: 1px;
-    margin-left: -2px;
     font-family: GarnetBlack;
     text-align: center;
     font-size: 15pt;
@@ -428,11 +426,11 @@ h4{
     }
 
     #cookheader{
-        font-size: 17pt;
+        font-size: 15pt;
     }
 
     #cookpage{
-        margin-top: -65px;
+        margin-top: -70px;
     }
 
     #hr2{
@@ -469,4 +467,23 @@ h4{
         border-style: solid;
         border-color: #535353;
         border-width: 1px;
+    }
+
+    h5{
+        position: absolute;
+        width: 180px;
+        margin-top: -30px;
+        color: #9b9070;
+        letter-spacing: 1px;
+        margin-left: -2px;
+        font-family: GarnetBlack;
+        text-align: center;
+        font-size: 18pt;
+    }
+
+    .swiper-slide:hover{
+        cursor: pointer;
+        #recipetitle, #category{
+            scale: 1.05;
+        }
     }
