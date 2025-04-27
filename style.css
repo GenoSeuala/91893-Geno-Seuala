@@ -278,7 +278,8 @@ h4{
   }
   header img{
     scale: 0.7;
-    margin-left: 14 0px;
+    margin-left: 140px;
+    margin-top: -5px;
   }
 
 .swiper-button-prev{
@@ -299,12 +300,13 @@ h4{
   h5{
     position: absolute;
     width: 180px;
-    margin-top: -32px;
+    margin-top: -31px;
     color: #9b9070;
     letter-spacing: 1px;
     margin-left: -2px;
     font-family: GarnetBlack;
     text-align: center;
+    font-size: 15pt;
 
   }
   #category{
@@ -327,7 +329,7 @@ h4{
     font-family: Londoner;
     color: #9b9070;
     font-size: 17pt; 
-    margin-top: 6px;
+    margin-top: 5px;
     width: 180px;
     margin-left: 2px;
     text-align: center;
@@ -340,4 +342,131 @@ h4{
         text-align: center;
         margin-left: 0px;
         width: 1400px;
+    }
+    #learnpage{
+        background-color: #282527;
+        margin-top: -25px;
+        height: 1100px;
+    }
+
+    h6{
+        position: absolute;
+        width: 180px;
+        margin-top: 30px;
+        color: #9b9070;
+        letter-spacing: 1px;
+        margin-left: -2px;
+        font-family: GarnetBlack;
+        text-align: center;
+        font-size: 35pt;
+        width: 1500px;
+      }
+
+      #toprow, #bottomrow{
+        height: 500px;
+      }
+
+      .learnul{
+        list-style-type: none;
+        width: 1500px;
+        text-align: center;
+        display: flex;
+      }
+
+      #title{
+        border-radius: 7px;
+        border-style: solid;
+        border-color: #535353;
+        position: absolute;
+        position: relative;
+        border-width: 1px;
+        text-align: center;
+        width: 180px;
+        letter-spacing: 1px;
+        height: 52px;
+        font-size: 18pt;
+        margin-top: -30px;
+        margin-left: 100px;
+        background-color: #1F1F1F;
+      }
+
+      .learnli{
+        margin-top: 140px;
+        margin-left: 75px;
+              }
+
+            .learnli:hover{
+                #title{
+                    scale: 1.05;
+                }
+            }
+
+    .learnli img{
+        border-radius: 10px;
+    }
+    #bottomrow{
+    }
+
+    #cookpage{
+        background-color: #282527;
+        margin-top: -25px;
+        height: 1160px;
+    }
+
+    .cookli{
+        scale: 0.85;
+        margin-left: -40px;
+        margin-top: -35px;
+              }
+
+    .cookul{
+    list-style-type: none;
+    width: 1300px;
+    margin-left: 40px;
+    text-align: center;
+    display: flex;
+    }
+
+    #cookheader{
+        font-size: 17pt;
+    }
+
+    #cookpage{
+        margin-top: -65px;
+    }
+
+    #hr2{
+        position: relative;
+        margin-top: 20px
+    }
+
+    #recipetitle{
+        border-radius: 7px;
+        border-style: solid;
+        border-color: #535353;
+        position: absolute;
+        position: relative;
+        border-width: 1px;
+        text-align: center;
+        width: 180px;
+        letter-spacing: 1px;
+        height: 58px;
+        font-size: 22pt;
+        margin-top: -30px;
+        margin-left: 160px;
+        background-color: #1F1F1F;
+      }
+
+      #cookbottomrow{
+        margin-top: -90px;
+      }
+
+      html.with-fancybox body.hide-scrollbar {
+        width: 1500px;
+      }
+
+    #learnpage img{
+        border-style: solid;
+        border-color: #535353;
+        border-width: 1px;
     }
